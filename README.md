@@ -16,4 +16,4 @@ Sıfırdan HTML, CSS ve JavaScript ile yazılmış, localStorage ile kalıcı ve
 `index.html` dosyasını tarayıcıda aç — kurulum gerekmiyor.
 
 ## Canlı link
-(deploy sonrası buraya link gelecek)
+https://elif-todo-app.vercel.app/
