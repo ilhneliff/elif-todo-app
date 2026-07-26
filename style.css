@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    background: #252627;
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    margin: 0;
+    min-height: 100vh;
+}
+
+.kutu {
+    font-family: monospace;
+    font-weight: 400;
+    font-style: oblique;
+    background: rgb(147, 141, 141);
+    padding: 50px;
+    border-radius: 12px;
+    box-shadow: 0 2px 12px rgba(65, 16, 33, 0.536);
+    width: 100%;
+    max-width: 600px;
+    height: 100%;
+}
+
+h1 {
+    font-family: "Nabla", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-variation-settings:
+        "EDPT" 100,
+        "EHLT" 12;
+    margin-top: 0;
+    font-size: 30px;
+}
+
+#gorev-form {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 16px;
+}
+
+#gorev-input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 15px;
+}
+
+#gorev-form button {
+    padding: 10px 16px;
+    background: #6c5ce7;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+#gorev-form button:hover {
+    background: #5849c2;
+}
+
+#gorev-listesi {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#bos-mesaj {
+    color: #1e1d1d;
+    text-align: center;
+    font-size: 14px;
+}
+
+#gorev-listesi li {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#gorev-listesi li .tamamlandi {
+    text-decoration: line-through;
+
+    color: #aaa;
+}
+
+.mini-buton {
+    border: none;
+    background: #eee;
+    border-radius: 4px;
+    width: 26px;
+    height: 26px;
+    cursor: pointer;
+    margin-left: 6px;
+    font-size: 13px;
+}
+
+.tamamla-buton:hover {
+    background: #55efc4;
+}
+
+.sil-buton:hover {
+    background: #ff7675;
+    color: white;
+}
